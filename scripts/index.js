@@ -21,6 +21,7 @@ function validateEmail() {
     var email = valueOf("email");
     var reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
+
     if (reg.test(email)) {
         document.getElementById("invalidEmail").innerHTML = "";
         return "";
@@ -39,7 +40,6 @@ function validateName() {
     document.getElementById("invalidName").innerHTML = "";
     return "";
 }
-
 
 function validatePhoneNumber() {
     var password = valueOf("phone");

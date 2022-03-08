@@ -12,18 +12,42 @@ html {
 
 body {
     background: #f7f7f7;
-    cursor: default
+    cursor: default;
 }
 
 section {
     padding: 2rem 9%;
 }
 
-.testi {
+.homePageHeading {
+    color: black;
+    font-size: 4rem;
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.homeOfferImg {
+    margin-bottom: 0;
+}
+
+.homeTextColor {
+    background-color: yellow;
+}
+
+.testimonialsText {
     border: 2px solid grey;
     border-radius: 5%;
     margin: 20px;
     padding: 10px;
+}
+
+.facilitiesInSociety {
+    margin-bottom: -30px;
+}
+
+#testimonialsHeading {
+    margin-top: 0;
 }
 
 footer {
@@ -32,7 +56,7 @@ footer {
     color: blue;
 }
 
-.happy:hover {
+.facilitiesBox:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -42,8 +66,8 @@ footer {
 .btn {
     margin-top: 1rem;
     display: inline-block;
-    padding: .8rem 3.5rem;
-    border-radius: .5rem;
+    padding: 0.8rem 3.5rem;
+    border-radius: 0.5rem;
     font-size: 1.7rem;
     color: var(--red);
     background: var(--light-red);
@@ -56,14 +80,7 @@ footer {
     color: #fff;
 }
 
-.homePageHeading {
-    color: black;
-    font-size: 5rem;
-    text-align: left;
-    padding-top: 10%;
-}
-
-.handover {
+.apartmentPrice {
     color: black;
     font-size: 3rem;
     text-align: left;
@@ -71,20 +88,23 @@ footer {
     margin-bottom: 1px;
 }
 
+.initialPrice {
+    color: red;
+}
+
 .small {
     margin-top: 1px;
     font-size: 1rem;
 }
 
-.benefits {
+.apartmentBenefits {
     text-align: left;
     font-size: 1.5rem;
-    margin-top: 1px;
-    ;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
-.heading {
+.sectionMainHeading {
     text-align: center;
     color: #333;
     font-size: 3.5rem;
@@ -92,11 +112,11 @@ footer {
     margin-top: 2%;
 }
 
-.heading span {
+.sectionMainHeading span {
     color: var(--red);
     background: var(--light-red);
-    border-radius: .5rem;
-    padding: .2rem 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1.5rem;
 }
 
 header {
@@ -107,7 +127,7 @@ header {
     z-index: 1000;
     background: #fff;
     padding: 1.5rem 9%;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,8 +159,8 @@ header .icons a {
     line-height: 4.5rem;
     width: 5rem;
     font-size: 2rem;
-    margin-right: .5rem;
-    border-radius: .5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
     color: var(--red);
     background: var(--light-red);
     text-align: center;
@@ -170,9 +190,9 @@ header .icons #menu-bars {
 .home form {
     margin-top: 7rem;
     background: #fff;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    border: .1rem solid rgba(0, 0, 0, .2);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
     width: 40rem;
     padding: 5rem;
 }
@@ -203,8 +223,8 @@ header .icons #menu-bars {
 .home form .inputBox input,
 .home form .inputBox select {
     flex: 1 1 25rem;
-    border: .1rem solid #333;
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border: 0.1rem solid #333;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
     font-size: 1.5rem;
     padding: 1rem;
     text-transform: none;
@@ -222,38 +242,38 @@ header .icons #menu-bars {
     margin-top: 2rem;
 }
 
-.about {
+.sectionLayout {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2% 5% 5% 5%;
+    padding: 2% 5% 2% 5%;
 }
 
-.buildingInfo .box-container {
+.apartmentInfo .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.buildingInfo .box-container .box {
+.apartmentInfo .box-container .box {
     flex: 1 1 30rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     background: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 2rem;
 }
 
-.buildingInfo .box-container .box h3 {
+.apartmentInfo .box-container .box h3 {
     font-size: 2.5rem;
     color: #333;
 }
 
-.buildingInfo .box-container .box p {
+.apartmentInfo .box-container .box p {
     font-size: 1.5rem;
     color: #666;
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     line-height: 2;
 }
 
@@ -265,18 +285,19 @@ header .icons #menu-bars {
     padding: 0% 4% 4% 4%;
 }
 
-.options {
+.facilities {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .list {
     margin-left: 10%;
 }
 
-.container {
+.testimonialsContainer {
     text-align: center;
     border: 2px solid grey;
     border-radius: 5%;
@@ -299,8 +320,8 @@ header .icons #menu-bars {
 .contact .icons-container .icons {
     flex: 1 1 10rem;
     background: #fff;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-right: 30%;
     padding: 2rem;
@@ -308,9 +329,9 @@ header .icons #menu-bars {
 
 .contact .row {
     background: #fff;
-    border: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    border-radius: .5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
     display: flex;
     flex-wrap: wrap-reverse;
     padding: 1rem;
@@ -318,7 +339,7 @@ header .icons #menu-bars {
 
 .contact .row form {
     flex: 1 1 50rem;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .contact .row .map {
@@ -345,7 +366,7 @@ header .icons #menu-bars {
     font-size: 1.7rem;
     color: #333;
     background: #f7f7f7;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     text-transform: none;
     width: 49%;
 }
@@ -361,7 +382,7 @@ header .icons #menu-bars {
     background-color: var(--light-red);
 }
 
-.testimonials {
+.testimonialsLayout {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -397,11 +418,6 @@ svg {
         overflow-x: hidden;
         width: 100%;
     }
-    #aboutImg {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     .home {
         display: flex;
         flex-direction: column;
@@ -410,56 +426,60 @@ svg {
     .home form h3 {
         text-align: center;
         color: #333;
-        font-size: .5rem;
+        font-size: 2rem;
         margin-top: 10px;
     }
     .homePageHeading {
         color: black;
         font-size: 5rem;
         text-align: center;
-        padding-top: 30%;
+        padding-top: 10%;
     }
-    .handover {
+    .apartmentPrice {
         color: black;
         font-size: 3rem;
         text-align: center;
         margin-top: 35px;
-        margin-bottom: 1px;
     }
     .small {
         margin-top: 1px;
         font-size: 2.5rem;
     }
-    .benefits {
+    .apartmentBenefits {
         text-align: center;
         font-size: 3rem;
-        margin-top: 1px;
         margin-bottom: 20px;
     }
     .home form {
         margin-top: 4rem;
         background: #fff;
-        border-radius: .5rem;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        border: .1rem solid rgba(0, 0, 0, .2);
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        border: 0.1rem solid rgba(0, 0, 0, 0.2);
         width: 35rem;
         padding: 2rem;
     }
-    .buildingInfo .box-container {
+    .apartmentInfo .box-container {
         display: flex;
         justify-content: center;
     }
-    .buildingInfo .box-container .box {
+    .apartmentInfo .box-container .box {
         background: #fff;
         text-align: center;
         padding: 1rem;
     }
-    .testimonials {
+    .apartmentImg {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 300px;
+    }
+    .testimonialsLayout {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .container {
+    .testimonialsContainer {
         text-align: center;
         border: 2px solid grey;
         border-radius: 5%;
@@ -482,13 +502,16 @@ svg {
     .iframeLayout {
         width: 600px;
         height: 400px;
-        margin-left: 5%;
     }
-    .about {
+    .sectionLayout {
         display: flex;
     }
     .list {
         margin-left: 5%;
+    }
+    .iframe {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -511,7 +534,11 @@ svg {
         text-align: center;
         padding-top: 30%;
     }
-    .handover {
+    .homeOfferImg {
+        display: flex;
+        justify-content: center;
+    }
+    .apartmentPrice {
         color: black;
         font-size: 2rem;
         text-align: center;
@@ -522,37 +549,35 @@ svg {
         margin-top: 1px;
         font-size: 1rem;
     }
-    .benefits {
+    .apartmentBenefits {
         text-align: center;
         font-size: 1.5rem;
-        margin-top: 1px;
-        ;
         margin-bottom: 20px;
     }
     .home form {
         margin-top: 4rem;
         background: #fff;
-        border-radius: .5rem;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        border: .1rem solid rgba(0, 0, 0, .2);
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        border: 0.1rem solid rgba(0, 0, 0, 0.2);
         width: 25rem;
         padding: 2rem;
     }
-    .buildingInfo .box-container {
+    .apartmentInfo .box-container {
         display: flex;
         justify-content: center;
     }
-    .buildingInfo .box-container .box {
+    .apartmentInfo .box-container .box {
         background: #fff;
         text-align: center;
         padding: 1rem;
     }
-    .testimonials {
+    .testimonialsLayout {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .container {
+    .testimonialsContainer {
         text-align: center;
         border: 2px solid grey;
         border-radius: 5%;
@@ -574,13 +599,19 @@ svg {
     .iframeLayout {
         width: 300px;
         height: 300px;
+        margin-left: 0;
     }
-    .about {
+    .sectionLayout {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0;
     }
     .list {
         margin-left: 5%;
+    }
+    .iframe {
+        display: flex;
+        justify-content: center;
     }
 }
